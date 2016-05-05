@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KonamiCode.js</title>
+
+    <style type="text/css">
+        body {
+            font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
+            font-weight: 200;
+            padding: 100px;
+            color: skyblue;
+            font-size: 18px;
+        }
+
+        p.instructions {
+            color: navy;
+            margin-bottom: 2em;
+        }
+
+        p.success {
+            color: red;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>KonamiCode.js</h1>
+    <p class="instructions">Enter <b>Up, Up, Down, Down, Left, Right, Left, Right, A, B, Enter</b> to test.
+
+
+    <script src="dist/konamicode.js"></script>
+    <script>
+        function appendSuccess(){
+            var p = document.createElement('p');
+            p.className = 'success';
+            p.innerText = 'KAPOW!';
+            document.body.appendChild(p);
+        }
+
+        new KonamiCode(appendSuccess);
+    </script>
+
+</body>
+</html>
