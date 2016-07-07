@@ -2,7 +2,7 @@
 
 Browser module for calling a function after a user enters a Konami Code:
 
-**Up, Up, Down, Down, Left, Right, Left, Right, A, B, Enter**
+**Up, Up, Down, Down, Left, Right, Left, Right, B, A, Enter**
 
 
 ## Usage

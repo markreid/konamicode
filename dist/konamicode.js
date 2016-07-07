@@ -51,7 +51,7 @@ var KonamiCode =
 	 * KonamiCode.js
 	 */
 
-	var DEFAULT_SEQUENCE = [38, 38, 40, 40, 37, 39, 37, 39, 65, 66, 13];
+	var DEFAULT_SEQUENCE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
 
 	var KonamiCode = function KonamiCode(callback) {
 	    var sequence = arguments.length <= 1 || arguments[1] === undefined ? DEFAULT_SEQUENCE : arguments[1];

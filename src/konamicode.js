@@ -2,7 +2,7 @@
  * KonamiCode.js
  */
 
-const DEFAULT_SEQUENCE = [38, 38, 40, 40, 37, 39, 37, 39, 65, 66, 13];
+const DEFAULT_SEQUENCE = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65, 13];
 
 const KonamiCode = function (callback, sequence = DEFAULT_SEQUENCE) {
     if(!callback) throw new Error('You must provide a callback function to the constructor.');
