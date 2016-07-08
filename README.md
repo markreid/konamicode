@@ -1,8 +1,8 @@
 # KonamiCode.js
 
-Browser module for calling a function after a user enters a Konami Code:
+KonamiCode.js lets you call a function from a browser when a user enters the Konami Code:
 
-**Up, Up, Down, Down, Left, Right, Left, Right, B, A, Enter**
+**Up, Up, Down, Down, Left, Right, Left, Right, B, A**
 
 
 ## Usage
